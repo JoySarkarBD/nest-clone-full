@@ -1,0 +1,22 @@
+
+{
+  "name": "nest-clone-full",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "ts-node-dev src/main.ts",
+    "cli": "ts-node src/cli/index.ts"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "reflect-metadata": "^0.2.2",
+    "class-validator": "^0.14.3",
+    "class-transformer": "^0.5.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "@types/express": "^5.0.6"
+  }
+}
